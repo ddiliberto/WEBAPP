@@ -1,0 +1,2 @@
+<input id="new-todo" placeholder="Add a song title or artist..." type="text">
+<div class="ui-tooltip-top">Press Enter to add this song</div>

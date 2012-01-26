@@ -1,0 +1,12 @@
+<div class="todo <% if @todo.done: %>done<% end %>">
+  <div class="display">
+  <div id="noartwork"><img src="../images/noartwork_75.png"></div>
+    <input class="check" type="checkbox" <% if @todo.done: %>checked="checked"<% end %>>
+  <div class="todo-content"><%= @todo.content %></div>
+  <div id="artistname"><p>by </p><a href="#">Artist Name</a></div><div id="album"><a href="#">Album Title</a></div>
+    <span class="todo-destroy"></span>
+  </div>
+  <div class="edit">
+    <input class="todo-input" type="text" value="<%= @todo.content %>">
+  </div>
+</div>
